@@ -28,5 +28,5 @@ Members
 - 박서진 [@motsuni04](https://github.com/motsuni04)
 - 오현수 [@pauloh168](https://github.com/pauloh168)
 - 윤수혁 
-- 이상철
+- 이상철 [@shleee](https://github.com/shlee)
 - 이지영 [@gamjalee](https://github.com/gamjalee)
