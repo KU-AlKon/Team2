@@ -16,18 +16,18 @@ tail = (
 )
 
 
-def print_with_indent(dialogs, depth):
+def f(dialogs, depth):
     print(*['_' * 4 * depth + x for x in dialogs], sep='\n')
 
 
 def say(goal, depth = 0):
-    print_with_indent(head, depth)
+    f(head, depth)
     if depth == goal:
-        print_with_indent(result, depth)
+        f(result, depth)
     else:
-        print_with_indent(body, depth)
+        f(body, depth)
         say(goal, depth + 1)
-    print_with_indent(tail, depth)
+    f(tail, depth)
 
 
 print('어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.')
