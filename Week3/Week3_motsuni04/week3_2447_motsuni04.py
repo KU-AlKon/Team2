@@ -1,6 +1,5 @@
 n = int(input())
 
-
 r = []
 for _ in range(n):
     r.append(['*' for _ in range(n)])
